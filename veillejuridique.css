@@ -158,3 +158,8 @@ footer .colonne p:hover {
 		width: 80%;
 	}
 }
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}

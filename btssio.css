@@ -178,3 +178,7 @@ footer .colonne p:hover {
 .paragraphe{
     padding: 0 125px;
 }
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
