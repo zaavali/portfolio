@@ -1,20 +1,18 @@
 .premiere-veille , .deuxieme-veille {
-    
-        
         background-color: rgb(36, 34, 46);
-        padding-top: 25px;
-        padding-bottom: 25px;
         height: 400px;
         border-radius: 0.5rem;
         color: rgb(253, 251, 251);
 
-    
+
+        
 }
 
 .veille {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(2, 45%);
+    grid-template-columns: repeat(2, 49%);
+    gap: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
