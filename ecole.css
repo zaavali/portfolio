@@ -162,3 +162,27 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+.englobe_button{
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.englobe_button a {
+	color: white;
+    text-decoration: none
+}
+.outil_button{
+	text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    background-color:  rgb(36, 34, 46);
+    color: rgb(253, 251, 251);
+    margin: 25px 0;
+}
+.btn{
+	display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 60%);
+    gap: 15px;
+}
