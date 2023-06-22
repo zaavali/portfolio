@@ -199,3 +199,7 @@ footer .colonne p:hover {
 		width: 80%;
 	}
 }
+a{
+	text-decoration: none;
+	color: #ccc;
+}
