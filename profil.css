@@ -9,10 +9,11 @@
 
 body {
     background-color: rgb(145, 145, 145);
-    
     height: 100vh;
     width: 100vw;
     display: flex;
+    padding: 0 2%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Rubik", sans-serif;
@@ -57,7 +58,7 @@ body {
 }
 
 .profile-bottom {
-    margin-top: 75px;
+
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -118,9 +119,14 @@ nav ul{
 }
 a{
     text-decoration: none;
+    color: white;
+}
+#a2{
+    text-decoration: none;
     color: black;
 }
 footer {
+    width: 100%;
 	margin-top: 5%;
 	display: flex;
 	flex-wrap: wrap;
@@ -136,4 +142,12 @@ footer .colonne p {
 }
 footer .colonne p:hover {
 	color: #fff;
+}
+@media screen and (max-width: 700px) {
+	footer {
+		justify-content: flex-start;
+	}
+	footer .column {
+		width: 80%;
+	}
 }
