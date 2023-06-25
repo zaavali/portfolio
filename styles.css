@@ -166,3 +166,6 @@ a{
 	text-decoration: none;
 	color: #ccc;
 }
+ @media screen and(max-width: 1200px) {
+	
+ }

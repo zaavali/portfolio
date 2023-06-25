@@ -145,3 +145,29 @@ footer .colonne p {
 footer .colonne p:hover {
 	color: #fff;
 }
+@media  screen and (max-width: 767px) {
+    .wrapper{
+        height: 80vh;
+        width: 80vw;
+
+    }
+    .profile-image{
+        display: none;
+        visibility: hidden;
+    }
+    .profile-top{
+        display: none;
+        visibility: hidden;
+    }
+    #a2{
+        justify-content: center;
+    }
+
+}
+
+@media  screen and (max-width: 999px) {
+   .btnac{
+    margin: auto;
+   }
+
+}
