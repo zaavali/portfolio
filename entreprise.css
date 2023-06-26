@@ -128,9 +128,7 @@ footer .colonne p:hover {
 	nav {
 		justify-content: center;
 	}
-	nav ul {
-		display: none;
-	}
+
 
 	.page-content header {
 		margin-top: 10%;
@@ -158,6 +156,40 @@ footer .colonne p:hover {
 		width: 80%;
 	}
 }
+@media  screen and (max-width: 350px) {
+	nav {
+		justify-content: center;
+		
+	}
+
+
+	.page-content header {
+		margin-top: 10%;
+		max-width: 100%;
+	}
+	.page-content #projects-section {
+		margin-top: 15%;
+	}
+	.page-content #projects-section h1 {
+		font-size: 1.5em;
+	}
+	.page-content #projects-section .project {
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
+	}
+	.page-content #projects-section .project .description {
+		font-size: 13px;
+	}
+
+	footer {
+		justify-content: flex-start;
+	}
+	footer .column {
+		width: 80%;
+	}
+}
+ 
 nav ul li a {
     text-decoration: none;
     color: black;
