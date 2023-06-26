@@ -200,8 +200,8 @@ footer .colonne p:hover {
 @media  screen and (max-width: 350px) {
 	nav {
 		justify-content: center;
-		margin-top: 15%;
-		max-width: 100%;
+		margin-top: 10%;
+		max-width: 60%;
 	}
 
 

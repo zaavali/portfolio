@@ -159,7 +159,8 @@ footer .colonne p:hover {
 @media  screen and (max-width: 350px) {
 	nav {
 		justify-content: center;
-		
+		margin-top: 10%;
+		max-width: 60%;
 	}
 
 
@@ -186,7 +187,7 @@ footer .colonne p:hover {
 		justify-content: flex-start;
 	}
 	footer .column {
-		width: 80%;
+		width: 100%;
 	}
 }
  
