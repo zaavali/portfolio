@@ -127,9 +127,19 @@ footer .colonne p:hover {
 @media screen and (max-width: 700px) {
 	nav {
 		justify-content: center;
+		font-size: small;
 		
 	}
-	
+	.paragraphe{
+		padding: 49px;
+		font-size: small;
+	}
+	#cyber{
+		font-size: small;
+	}
+	.para{
+		font-size: small;
+	}
 	#bts{
 		display: none;
 		visibility: hidden;
@@ -155,6 +165,7 @@ footer .colonne p:hover {
 
 	footer {
 		justify-content: flex-start;
+		font-size: small;
 	}
 	footer .column {
 		width: 80%;
@@ -178,7 +189,7 @@ footer .colonne p:hover {
 }
 
 .paragraphe{
-    padding: 0 125px;
+    padding: 0 60px;
 }
 nav ul li a {
     text-decoration: none;
@@ -191,10 +202,23 @@ a{
 @media  screen and (max-width: 350px) {
 	nav {
 		justify-content: center;
-		max-width: 100vw;
+		font-size: x-small;
+		
 	}
-
-
+	.paragraphe{
+		padding: 49px;
+		font-size: x-small;
+	}
+	#cyber{
+		font-size: x-small;
+	}
+	.para{
+		font-size: x-small;
+	}
+	#bts{
+		display: none;
+		visibility: hidden;
+	}
 	.page-content header {
 		margin-top: 10%;
 		max-width: 100%;
@@ -216,6 +240,7 @@ a{
 
 	footer {
 		justify-content: flex-start;
+		font-size: x-small;
 	}
 	footer .column {
 		width: 80%;
