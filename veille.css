@@ -203,14 +203,15 @@ footer .colonne p:hover {
 @media  screen and (max-width: 350px) {
 	nav {
 		justify-content: center;
-		margin-top: 10%;
-		max-width: 60%;
 	}
-
+	#veilletech{
+		display: none;
+		visibility: hidden;
+	}
 
 	.page-content header {
 		margin-top: 10%;
-		max-width: 100%;
+		max-width: 10vw;
 	}
 	.page-content #projects-section {
 		margin-top: 15%;
@@ -221,7 +222,7 @@ footer .colonne p:hover {
 	.page-content #projects-section .project {
 		margin-right: 0;
 		margin-bottom: 20px;
-		max-width: 100%;
+		max-width: 10vw;
 	}
 	.page-content #projects-section .project .description {
 		font-size: 13px;
@@ -232,6 +233,12 @@ footer .colonne p:hover {
 	}
 	footer .column {
 		width: 80%;
+	}
+}
+@media  screen and (max-width: 339px) {
+	body{
+		display: none;
+		visibility: hidden;
 	}
 }
  

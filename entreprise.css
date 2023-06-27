@@ -124,7 +124,7 @@ footer .colonne p:hover {
 	color: #fff;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
 	nav {
 		justify-content: center;
 		font-size: small;
@@ -172,11 +172,21 @@ footer .colonne p:hover {
 @media  screen and (max-width: 350px) {
 	nav {
 		justify-content: center;
-		margin-top: 10%;
-		max-width: 60%;
+		font-size: x-small;
 	}
-
-
+	#ent{
+		display: none;
+		visibility: hidden;
+	}
+	.para{
+		font-size: x-small;
+	}
+	#financ{
+		font-size: x-small;
+	}
+	.paragraphe{
+		font-size: x-small;
+	}
 	.page-content header {
 		margin-top: 10%;
 		max-width: 100%;
@@ -198,12 +208,18 @@ footer .colonne p:hover {
 
 	footer {
 		justify-content: flex-start;
+		font-size: x-small;
 	}
 	footer .column {
-		width: 100%;
+		width: 80%;
 	}
 }
- 
+@media  screen and (max-width: 339px) {
+	body{
+		display: none;
+		visibility: hidden;
+	}
+}
 nav ul li a {
     text-decoration: none;
     color: black;

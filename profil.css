@@ -197,4 +197,53 @@ footer .colonne p:hover {
 		width: 80%;
 	}
 }
- 
+@media  screen and (max-width: 339px) {
+	nav {
+		justify-content: center;
+		display: none;
+        visibility: hidden;
+	}
+
+
+	.page-content header {
+		display: none;
+        visibility: hidden;
+	}
+	.page-content #projects-section {
+		display: none;
+        visibility: hidden;
+	}
+	.page-content #projects-section h1 {
+		display: none;
+        visibility: hidden;
+	}
+	.page-content #projects-section .project {
+		display: none;
+        visibility: hidden;
+	}
+	.page-content #projects-section .project .description {
+		display: none;
+        visibility: hidden;
+	}
+
+	footer {
+		justify-content: flex-start;
+        display: none;
+        visibility: hidden;
+	}
+	footer .column {
+		width: 80%;
+        display: none;
+        visibility: hidden;
+	}
+}
+@media  screen and (max-width: 339px) {
+    .wrapper{
+        height: 80vh;
+        width: 80vw;
+        display: none;
+        visibility: hidden;
+
+    }
+   
+}

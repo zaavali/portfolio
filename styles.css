@@ -194,12 +194,15 @@ footer .colonne p:hover {
 		width: 80%;
 	}
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
 	nav ul{
 		justify-content: center;
 		margin-right: 0;
 		margin-bottom: 20px;
 		max-width: 100%;
+	}
+	nav{
+		font-size: small;
 	}
 	#acc {
 		display: none;
@@ -244,7 +247,9 @@ footer .colonne p:hover {
 		margin-bottom: 20px;
 		max-width: 100%;
 	}
-
+	nav{
+		font-size: x-small;
+	}
 
 	.page-content header {
 		margin-top: 10%;
@@ -270,6 +275,52 @@ footer .colonne p:hover {
 	}
 	footer .column {
 		width: 80%;
+	}
+}
+@media  screen and (max-width: 339px) {
+	nav ul{
+		display: none;
+		visibility: hidden;
+	}
+	nav{
+		display: none;
+		visibility: hidden;
+	}
+
+	.page-content header {
+		display: none;
+		visibility: hidden;
+	}
+	.page-content #projects-section {
+		display: none;
+		visibility: hidden;
+	}
+	.page-content #projects-section h1 {
+		display: none;
+		visibility: hidden
+	}
+	.page-content #projects-section .project {
+		display: none;
+		visibility: hidden;
+	}
+	.page-content #projects-section .project .description {
+		display: none;
+		visibility: hidden;
+	}
+
+	footer {
+		justify-content: flex-start;
+		display: none;
+		visibility: hidden;
+	}
+	footer .column {
+		width: 80%;
+		display: none;
+		visibility: hidden;
+	}
+	#img{
+		display: none;
+		visibility: hidden;
 	}
 }
  

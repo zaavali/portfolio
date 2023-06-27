@@ -124,7 +124,34 @@ footer .colonne p:hover {
 	color: #fff;
 }
 
-@media screen and (max-width: 700px) {
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 80%;
+    
+}
+
+.grid-englobe{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraphe{
+    padding:  0px 60px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+a{
+	text-decoration: none;
+	color: #ccc;
+}
+
+@media screen and (max-width: 767px) {
 	nav {
 		justify-content: center;
 		font-size: small;
@@ -173,32 +200,6 @@ footer .colonne p:hover {
 }
 
 
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    width: 80%;
-    
-}
-
-.grid-englobe{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.paragraphe{
-    padding: 0 60px;
-}
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-a{
-	text-decoration: none;
-	color: #ccc;
-}
 @media  screen and (max-width: 350px) {
 	nav {
 		justify-content: center;
@@ -247,4 +248,9 @@ a{
 	}
 }
  
- 
+@media  screen and (max-width: 339px) {
+	body{
+		display: none;
+		visibility: hidden;
+	}
+}
