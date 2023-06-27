@@ -124,10 +124,47 @@ footer .colonne p {
 footer .colonne p:hover {
 	color: #fff;
 }
-@media screen and (max-width: 1068px) {
-	nav {
+@media screen and (max-width: 1250px) {
+	nav ul{
 		justify-content: center;
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
+	}
 	
+
+	.page-content header {
+		margin-top: 10%;
+		max-width: 100%;
+	}
+	.page-content #projects-section {
+		margin-top: 15%;
+	}
+	.page-content #projects-section h1 {
+		font-size: 1.5em;
+	}
+	.page-content #projects-section .project {
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
+	}
+	.page-content #projects-section .project .description {
+		font-size: 13px;
+	}
+
+	footer {
+		justify-content: flex-start;
+	}
+	footer .column {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 1068px) {
+	nav ul {
+		justify-content: center;
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
 	}
 	
 
@@ -158,9 +195,11 @@ footer .colonne p:hover {
 	}
 }
 @media screen and (max-width: 700px) {
-	nav {
+	nav ul{
 		justify-content: center;
-	
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
 	}
 	
 
@@ -193,8 +232,9 @@ footer .colonne p:hover {
 @media  screen and (max-width: 350px) {
 	nav ul{
 		justify-content: center;
-		margin-top: 10%;
-		max-width: 60%;
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
 	}
 
 
