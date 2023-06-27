@@ -253,7 +253,9 @@ footer .colonne p:hover {
 	nav{
 		font-size: x-small;
 	}
-
+	ul li {
+		text-align: center;
+	}
 	.page-content header {
 		margin-top: 10%;
 		max-width: 100%;
