@@ -128,7 +128,10 @@ footer .colonne p:hover {
 	nav {
 		justify-content: center;
 	}
-
+	#ent{
+		display: none;
+		visibility: hidden;
+	}
 
 	.page-content header {
 		margin-top: 10%;
