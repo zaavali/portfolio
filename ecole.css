@@ -127,6 +127,7 @@ footer .colonne p:hover {
 @media screen and (max-width: 767px) {
 	nav {
 		justify-content: center;
+		font-size: x-small;
 	}
 	#ecole{
 		display: none;
