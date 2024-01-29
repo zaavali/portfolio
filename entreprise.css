@@ -224,6 +224,9 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+ul li {
+	list-style: none;
+}
 a{
 	text-decoration: none;
 	color: #ccc;
